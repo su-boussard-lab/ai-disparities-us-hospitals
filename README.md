@@ -4,7 +4,7 @@
 ## 2. Abstract
 AI has the potential to improve healthcare delivery, but uneven geographic adoption and implementation can reinforce existing care gaps and inefficiencies. We analyzed data from 3092 U.S. hospitals using the 2023 American Hospital Association (AHA) Data, community-level socioeconomic indicators, and 2023-2025 CMS hospital quality metrics to assess: where AI is implemented, what factors drive implementation, and how AI is associated with hospital quality. We found that hospital AI implementation is significantly clustered. Over 67% of deployments were misaligned with potential healthcare needs Clustering and hotspot analysis identify regions with high and low AI adoption to guide targeted deployment interventions. Geographically weighted regression reveals that factors driving AI implementation vary by region, suggesting universal strategies may be ineffective. AI holds transformative potential for healthcare, yet adoption is geographically clustered and often misaligned with areas of greatest need. These findings underscore the urgent need for region-specific strategies to ensure AI implementation aligns with healthcare delivery needs and improves outcomes across all geographic regions.
 
-##  2. File Organization
+##  3. File Organization
 
 - **Cell Outputs**: All outputs have been cleared.  
 - **Data Notice**: This project uses a mix of proprietary and publicly available datasets. Proprietary AHA data requires a subscription. Public datasets are cited in the manuscript and linked in the notebooks.  
