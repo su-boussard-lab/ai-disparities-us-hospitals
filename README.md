@@ -39,3 +39,21 @@ AI has the potential to improve healthcare delivery, but uneven geographic adopt
 - `D1_feature_importance`: Uses random forest to identify key features predicting AI/ML implementation.  
 - `D2_longitudinal_analysis`: Assesses whether AI implementation level is associated with changes in hospital care quality over time.
 
+
+# 4. Datasets
+#### Hospital Data  
+- 2023 AHA Data (https://www.ahadata.com/) - proprietary data. requires subscription for access
+#### Community Data 
+- Zipcode & Hospital Service Area Crosswalk Data (https://data.dartmouthatlas.org/supplemental/#crosswalks)
+- 2023 Area Deprivation Index (https://www.neighborhoodatlas.medicine.wisc.edu/)
+- 2022 Social Vulnerability Index (https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html)
+- Hospital Professional Shortage Area & Medically Underserved Area (https://data.hrsa.gov/data/download?data=SHORT#SHORT)
+- Census API (https://www.census.gov/data/developers/data-sets.html)
+#### Hospital Care Quality Data 
+- CMS Hospital Care Quality (https://data.cms.gov/provider-data/archived-data/hospitals)
+
+
+# 5. Environment
+
+Use `environment.yml` to recreate the environment.
+
