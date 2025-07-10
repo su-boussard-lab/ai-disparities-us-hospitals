@@ -8,14 +8,17 @@ AI has the potential to improve healthcare delivery, but uneven geographic adopt
 # 3. File Organization  
 
 ## General Notes  
+- **Notebook Purpose**: These notebooks are organized for transparency and easier interpretation.  
+- **Future Code Release**: A more modular and reproducible version of the codebase (in `.py` scripts) will be shared after the peer review process is complete.  
 - **Cell Outputs**: All notebook outputs have been cleared.  
 - **Data Notice**: This project uses a mix of proprietary and publicly available datasets.  
   - AHA data requires a subscription and cannot be shared.  
-  - Public datasets are cited in the manuscript and linked in the notebooks.  
-- **Code Availability**: This repository includes the core analysis code used in the study. Some portions have been simplified for clarity and readability (e.g., repeated applications of similar functions, or complex troubleshooting steps).  
-  If the user has access to all necessary data (including proprietary datasets) and needs the full, executable code for replication, please contact the corresponding author (ymh@stanford.edu).  
+  - Public datasets are cited in the manuscript, linked in the corresponding notebooks, and in Section 4 (Datasets).  
+- **Code Availability**: This repository includes the core analysis code used in the study. Some portions have been simplified for clarity and readability (e.g., repeated applications of similar functions or complex troubleshooting steps).  
+  If the user has access to all necessary data (including proprietary datasets) and needs the full executable code for replication, please contact the corresponding author (ymh@stanford.edu).  
 - **Notebook Documentation**: Each notebook includes a description of its purpose and workflow.  
 - **Folder Structure**: Files are organized alphabetically to reflect the analysis workflow.
+
 
 ## Notebooks  
 
@@ -56,4 +59,10 @@ AI has the potential to improve healthcare delivery, but uneven geographic adopt
 # 5. Environment
 
 Use `environment.yml` to recreate the environment.
+
+
+# 6. Preprint
+
+This study is currently under peer review.  
+Preprint available at: https://www.medrxiv.org/content/10.1101/2025.06.27.25330441v1
 
