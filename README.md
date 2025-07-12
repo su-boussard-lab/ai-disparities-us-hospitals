@@ -23,6 +23,7 @@ AI has the potential to improve healthcare delivery, but uneven geographic adopt
 ## Notebooks  
 
 ### A. Data Preprocessing  
+- `A0_data_collection`: Describes data collection process and source. 
 - `A1_preprocessing_hospital`: Processes AHA Annual Survey and IT Supplement data.  
 - `A2_preprocessing_geodata`: Processes community-level geographic variables.  
 - `A3_preprocessing_healthoutcome`: Processes CMS hospital quality metric data.
