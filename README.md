@@ -63,6 +63,6 @@ Use `environment.yml` to recreate the environment.
 
 # 6. Preprint
 
-This study is currently under peer review.  
+This study is currently under review.  
 Preprint available at: https://www.medrxiv.org/content/10.1101/2025.06.27.25330441v1
 
