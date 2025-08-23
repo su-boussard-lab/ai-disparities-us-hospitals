@@ -2,7 +2,7 @@
 **AI Implementation in U.S. Hospitals: Regional Disparities and System-Level Implications**
 
 # 2. Abstract  
-AI has the potential to improve healthcare delivery, but uneven geographic adoption and implementation can reinforce existing care gaps and inefficiencies. We analyzed data from 3092 U.S. hospitals using the 2023 American Hospital Association (AHA) Data, community-level socioeconomic indicators, and 2023-2025 CMS hospital quality metrics to assess: where AI is implemented, what factors drive implementation, and how AI is associated with hospital quality. We found that hospital AI implementation is significantly clustered. Over 67% of deployments were misaligned with potential healthcare needs. Clustering and hotspot analysis identified regions with high and low AI adoption to guide targeted deployment interventions. Geographically weighted regression reveals that factors driving AI implementation vary by region, suggesting universal strategies may be ineffective. These findings underscore the urgent need for region-specific strategies to ensure AI implementation aligns with healthcare delivery needs and improves outcomes across all geographic regions.
+AI has the potential to improve healthcare delivery, but uneven geographic adoption and implementation can reinforce existing care gaps and inefficiencies. We analyzed data from 3560 U.S. hospitals using the 2023 American Hospital Association (AHA) Annual Survey, 2023-2024 AHA IT Supplement,  community-level socioeconomic indicators, and 2023-2025 Center for Medicare & Medicaid Services (CMS) hospital quality metrics to assess: where AI is implemented, what factors are associated with implementation, and patterns of early AI adoption across geographic regions. We found that hospital AI implementation is significantly clustered, with geographic hotspots and coldspots of adoption. Regions with higher healthcare access need indicators were less likely to have hospitals with AI-based predictive models. Geographically weighted regression reveals that factors associated with AI implementation vary by region, suggesting that adoption patterns reflect diverse local contexts and institutional characteristics. These findings provide a baseline understanding of early AI deployment patterns in U.S. hospitals. Future efforts should develop standardized, detailed, and model-specific AI implementation metrics and consider local context rather than pursuing uniform deployment strategies.
 
 
 # 3. File Organization  
@@ -46,7 +46,7 @@ AI has the potential to improve healthcare delivery, but uneven geographic adopt
 
 # 4. Datasets
 #### Hospital Data  
-- 2023 AHA Data (https://www.ahadata.com/) - proprietary data. requires subscription for access
+- 2023 and 2024 AHA Data (https://www.ahadata.com/) - proprietary data. requires subscription for access
 #### Community Data 
 - Zipcode & Hospital Service Area Crosswalk Data (https://data.dartmouthatlas.org/supplemental/#crosswalks)
 - 2023 Area Deprivation Index (https://www.neighborhoodatlas.medicine.wisc.edu/)
