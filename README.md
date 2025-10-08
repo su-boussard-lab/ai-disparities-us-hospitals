@@ -1,70 +1,65 @@
-# 1. Title  
+# 1. Title
 **The Landscape of AI Implementation in U.S. Hospitals**
 
-# 2. Abstract  
-AI has the potential to improve healthcare delivery, but uneven adoption and implementation can reinforce existing care gaps and inefficiencies. We analyzed data from 3560 U.S. hospitals using the 2023 American Hospital Association (AHA) Annual Survey, 2023-2024 AHA IT Supplement, community-level socioeconomic indicators, and 2023-2025 Center for Medicare & Medicaid Services (CMS) hospital quality metrics to examine: where AI is implemented, what factors are associated with implementation, and patterns of early AI adoption across geographic regions. We found that hospital AI implementation is significantly clustered, with hotspots and coldspots of adoption. Regions with higher healthcare access needs were less likely to have hospitals with AI-based predictive models. Geographically weighted regression showed that factors associated with predictive AI implementation vary by region, suggesting that adoption patterns reflect diverse local contexts and institutional characteristics. These findings provide a baseline snapshot of early AI deployment patterns in U.S. hospitals in 2023 and 2024, highlighting the uneven and context-dependent nature of implementation. Future efforts should develop standardized, detailed, model-specific AI implementation metrics and account for local context rather than pursuing uniform deployment strategies.
+# 2. Abstract
+AI has the potential to improve healthcare delivery, but uneven adoption and implementation can reinforce existing care gaps and inefficiencies. We analyzed data from 3,560 U.S. hospitals using the 2023 American Hospital Association (AHA) Annual Survey, 2023–2024 AHA IT Supplement, community-level socioeconomic indicators, and 2023–2025 Center for Medicare & Medicaid Services (CMS) hospital quality metrics to examine: where AI is implemented, what factors are associated with implementation, and patterns of early AI adoption across geographic regions. We found that hospital AI implementation is significantly clustered, with hotspots and coldspots of adoption. Regions with higher healthcare access needs were less likely to have hospitals with AI-based predictive models. Geographically weighted regression showed that factors associated with predictive AI implementation vary by region, suggesting that adoption patterns reflect diverse local contexts and institutional characteristics. These findings provide a baseline snapshot of early AI deployment patterns in U.S. hospitals in 2023 and 2024, highlighting the uneven and context-dependent nature of implementation. Future efforts should develop standardized, detailed, model-specific AI implementation metrics and account for local context rather than pursuing uniform deployment strategies.
 
+# 3. File Organization
 
+## General Notes
+- **Notebook purpose:** Organized for transparency and ease of interpretation.  
+- **Cell outputs:** All notebook outputs have been cleared.  
+- **Data notice:** This project uses a mix of proprietary and publicly available datasets. AHA data require a subscription and cannot be shared. Public datasets are cited in the manuscript, linked in the corresponding notebooks, and listed in Section 4 (*Datasets*).  
+- **Code availability:** Researchers with access to the necessary datasets may contact the corresponding author (ymh@stanford.edu) for executable support or additional details.  
+- **Notebook documentation:** Each notebook includes a description of its purpose and workflow.  
+- **Folder structure:** Files are organized alphabetically to reflect the analysis workflow.
 
-# 3. File Organization  
-
-## General Notes  
-- **Notebook Purpose**: These notebooks are organized for transparency and ease of interpretation.
-- **Cell Outputs**: All notebook outputs have been cleared.  
-- **Data Notice**: This project uses a mix of proprietary and publicly available datasets.
-AHA data requires a subscription and cannot be shared.
-Public datasets are cited in the manuscript, linked in the corresponding notebooks, and listed in Section 4 (Datasets).
-- **Code Availability**: Researchers with access to the necessary datasets may contact the corresponding author (ymh@stanford.edu) for executable support or additional details. 
-- **Notebook Documentation**: Each notebook includes a description of its purpose and workflow.  
-- **Folder Structure**: Files are organized alphabetically to reflect the analysis workflow.
-
-
-## Notebooks  
-
-### A. Data Preprocessing  
-- `A0_data_collection`: Describes data collection process and source. 
+## Notebooks
+### A. Data Preprocessing
+- `A0_data_collection`: Describes data collection process and sources.  
 - `A1_preprocessing_hospital`: Processes AHA Annual Survey and IT Supplement data.  
 - `A2_preprocessing_geodata`: Processes community-level geographic variables.  
-- `A3_preprocessing_healthoutcome`: Processes CMS hospital quality metric data.
+- `A3_preprocessing_healthoutcome`: Processes CMS hospital quality metric data.  
 
-### B. Descriptive Statistics  
+### B. Descriptive Statistics
 - `B1_table_one`: Generates descriptive statistics.  
-- `B2_concordance_analysis`: Assesses alignment between healthcare need and AI implementation.
+- `B2_concordance_analysis`: Assesses alignment between healthcare need and AI implementation.  
 
-### C. Spatial Analysis  
+### C. Spatial Analysis
 - `C1_visualization_distribution`: Visualizes the geographic distribution of hospital AI implementation.  
 - `C2_cluster_analysis`: Measures spatial autocorrelation and characterizes clusters.  
 - `C3_hotspot_national_analysis`: Identifies hotspots and coldspots of AI adoption nationwide.  
 - `C4_hotspot_regional_analysis`: Identifies hotspots and coldspots at the state and census division level.  
-- `C5_GWR`: Runs geographically weighted regression of hospital/community factors on AI implementation.
+- `C5_GWR`: Runs geographically weighted regression of hospital/community factors on AI implementation.  
 
 ### D. Feature Importance
-- `D1_feature_importance`: Uses random forest to identify key features predicting AI/ML implementation.
+- `D1_feature_importance`: Uses random forest to identify key features predicting AI/ML implementation.  
 
-### E. Exploratory Analysis  
+### E. Exploratory Analysis
 - `E1_longitudinal_analysis`: Assesses whether AI implementation level is associated with changes in hospital care quality over time.
 
-
 # 4. Datasets
-#### Hospital Data  
-- 2023 and 2024 AHA Data (https://www.ahadata.com/) - proprietary data. requires subscription for access
-#### Community Data 
-- Zipcode & Hospital Service Area Crosswalk Data (https://data.dartmouthatlas.org/supplemental/#crosswalks)
-- 2023 Area Deprivation Index (https://www.neighborhoodatlas.medicine.wisc.edu/)
-- 2022 Social Vulnerability Index (https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html)
-- Hospital Professional Shortage Area & Medically Underserved Area (https://data.hrsa.gov/data/download?data=SHORT#SHORT)
-- Census API (https://www.census.gov/data/developers/data-sets.html)
-#### Hospital Care Quality Data 
-- CMS Hospital Care Quality (https://data.cms.gov/provider-data/archived-data/hospitals)
 
+### Hospital Data
+- **2023–2024 AHA Annual Survey and IT Supplement** — proprietary data; subscription required for access ([AHA Data Portal](https://www.ahadata.com/))
 
-# 5. System Requirements and Installation Guide 
+### Community Data
+- Zip Code & Hospital Service Area Crosswalk Data — [Dartmouth Atlas](https://data.dartmouthatlas.org/supplemental/#crosswalks)  
+- 2023 Area Deprivation Index — [University of Wisconsin Neighborhood Atlas](https://www.neighborhoodatlas.medicine.wisc.edu/)  
+- 2022 Social Vulnerability Index — [CDC/ATSDR](https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html)  
+- Hospital Professional Shortage Area & Medically Underserved Area — [HRSA Data Portal](https://data.hrsa.gov/data/download?data=SHORT#SHORT)  
+- Census API — [U.S. Census Bureau](https://www.census.gov/data/developers/data-sets.html)
 
-### 5.1 System Requirements
-- **Operating System**: Tested on macOS 15.6.1  
-- **Python Version**: 3.11.11  
-- **Hardware**: No special hardware requirements  
-- **Dependencies**: All required packages are listed in `environment.yml`
+### Hospital Care Quality Data
+- **CMS Hospital Care Quality** — [Centers for Medicare & Medicaid Services](https://data.cms.gov/provider-data/archived-data/hospitals)
+
+# 5. System Requirements and Installation Guide
+
+## 5.1 System Requirements
+- Operating System: macOS 15.6.1  
+- Python Version: 3.11.11  
+- Hardware: No special hardware requirements  
+- Dependencies: All required packages are listed in `environment.yml`
 
 ### 5.2 Installation Guide
 Estimated install time: 2–5 minutes on a standard laptop.
