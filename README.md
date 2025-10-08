@@ -9,14 +9,12 @@ AI has the potential to improve healthcare delivery, but uneven adoption and imp
 # 3. File Organization  
 
 ## General Notes  
-- **Notebook Purpose**: These notebooks are organized for transparency and easier interpretation.  
-- **Future Code Release**: A more modular and reproducible version of the codebase (in `.py` scripts) will be shared after the peer review process is complete.  
+- **Notebook Purpose**: These notebooks are organized for transparency and ease of interpretation.
 - **Cell Outputs**: All notebook outputs have been cleared.  
-- **Data Notice**: This project uses a mix of proprietary and publicly available datasets.  
-  - AHA data requires a subscription and cannot be shared.  
-  - Public datasets are cited in the manuscript, linked in the corresponding notebooks, and in Section 4 (Datasets).  
-- **Code Availability**: This repository includes the core analysis code used in the study. Some portions have been simplified for clarity and readability (e.g., repeated applications of similar functions or complex troubleshooting steps).  
-  If the user has access to all necessary data (including proprietary datasets) and needs the full executable code for replication, please contact the corresponding author (ymh@stanford.edu).  
+- **Data Notice**: This project uses a mix of proprietary and publicly available datasets.
+AHA data requires a subscription and cannot be shared.
+Public datasets are cited in the manuscript, linked in the corresponding notebooks, and listed in Section 4 (Datasets).
+- **Code Availability**: Researchers with access to the necessary datasets may contact the corresponding author (ymh@stanford.edu) for executable support or additional details. 
 - **Notebook Documentation**: Each notebook includes a description of its purpose and workflow.  
 - **Folder Structure**: Files are organized alphabetically to reflect the analysis workflow.
 
@@ -40,9 +38,11 @@ AI has the potential to improve healthcare delivery, but uneven adoption and imp
 - `C4_hotspot_regional_analysis`: Identifies hotspots and coldspots at the state and census division level.  
 - `C5_GWR`: Runs geographically weighted regression of hospital/community factors on AI implementation.
 
-### D. Longitudinal Analysis  
-- `D1_feature_importance`: Uses random forest to identify key features predicting AI/ML implementation.  
-- `D2_longitudinal_analysis`: Assesses whether AI implementation level is associated with changes in hospital care quality over time.
+### D. Feature Importance
+- `D1_feature_importance`: Uses random forest to identify key features predicting AI/ML implementation.
+
+### E. Exploratory Analysis  
+- `E1_longitudinal_analysis`: Assesses whether AI implementation level is associated with changes in hospital care quality over time.
 
 
 # 4. Datasets
