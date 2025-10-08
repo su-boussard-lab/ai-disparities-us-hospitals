@@ -61,7 +61,7 @@ AI has the potential to improve healthcare delivery, but uneven adoption and imp
 - Hardware: No special hardware requirements  
 - Dependencies: All required packages are listed in `environment.yml`
 
-### 5.2 Installation Guide
+## 5.2 Installation Guide
 Estimated install time: 2–5 minutes on a standard laptop.
 
 1. **Install Conda**  
@@ -82,12 +82,12 @@ conda env create -f environment.yml
 ```
 # 6. Expected Output and Run Time 
 
-### 6.1 Expected Output 
+## 6.1 Expected Output 
 The Jupyter Notebook walks through the full data engineering and analysis pipeline using placeholder structures. While no output is generated without the proprietary dataset, each code cell will display:
 - Print statements confirming processing steps
 - Comments describing expected results (e.g., summary tables, visualizations)
 
-### 6.2 Expected Run Time 
+## 6.2 Expected Run Time 
 Each notebook cell executes in approximately **3 to 60 seconds** on a standard laptop (tested on macOS 15.6.1 with Apple M1, 16 GB RAM).  
 Total runtime for the full notebook is approximately **10–15 minutes**, depending on the system and any skipped cells.
 
