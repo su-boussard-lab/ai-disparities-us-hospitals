@@ -23,7 +23,7 @@ AI has the potential to improve healthcare delivery, but uneven adoption and imp
 
 ### B. Descriptive Statistics
 - `B1_table_one`: Generates descriptive statistics.  
-- `B2_concordance_analysis`: Assesses alignment between healthcare need and AI implementation.  
+- `B2_alignment_analysis`: Assesses alignment between healthcare need and AI implementation.  
 
 ### C. Spatial Analysis
 - `C1_visualization_distribution`: Visualizes the geographic distribution of hospital AI implementation.  
@@ -51,7 +51,7 @@ AI has the potential to improve healthcare delivery, but uneven adoption and imp
 - Census API — [U.S. Census Bureau](https://www.census.gov/data/developers/data-sets.html)
 
 ### Hospital Care Quality Data
-- **CMS Hospital Care Quality** — [Centers for Medicare & Medicaid Services](https://data.cms.gov/provider-data/archived-data/hospitals)
+- CMS Hospital Care Quality — [Centers for Medicare & Medicaid Services](https://data.cms.gov/provider-data/archived-data/hospitals)
 
 # 5. System Requirements and Installation Guide
 
