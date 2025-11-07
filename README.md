@@ -96,3 +96,10 @@ Total runtime for the full notebook is approximately **10–15 minutes**, depend
 This study is currently under review.  
 Preprint available at: https://www.medrxiv.org/content/10.1101/2025.06.27.25330441v1
 
+# 7. Contextual Map 
+
+The code used to create the contextual map is available at https://github.com/su-boussard-lab/ai-hospital-contextual-map
+The figure below is based on a simulated dataset, as the original data are proprietary.
+[Figure5.pdf](https://github.com/user-attachments/files/23426162/Figure5.pdf)
+
+
